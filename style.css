@@ -1,0 +1,53 @@
+body{
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.heading{
+    width:100%;
+    text-align:left;
+    font-family:'Times New Roman', Times, serif;
+} 
+
+.heading h3{
+    display:inline;
+    font-size:20px;
+}
+
+#instruction{
+    float:right; 
+    border:1px black;
+    font-size:18px;
+}
+
+#status{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+#restart_button{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+.modal-dialog{
+    width:90%;
+}
+
+.instruction_image{
+    display:inline-block;
+    width:45%;
+}
+
+.copyright_footer{
+    font-family:'Times New Roman', Times, serif; 
+    position:fixed;
+    color:white; 
+    bottom:0; 
+    background-color:coral;
+    line-height:3;
+    text-align:center;
+    width:100%;
+    font-size:22px;
+}
